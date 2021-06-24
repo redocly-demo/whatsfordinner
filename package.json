@@ -1,8 +1,8 @@
 {
-  "name": "portal-template",
+  "name": "whats-for-dinner",
   "private": true,
   "version": "0.0.1",
-  "description": "Redocly portal template repository",
+  "description": "Redocly demo what's for dinner",
   "license": "MIT",
   "scripts": {
     "start": "redocly-portal develop -p 3000",
@@ -10,6 +10,6 @@
     "clean": "redocly-portal clean"
   },
   "dependencies": {
-    "@redocly/developer-portal": "1.0.0-beta.142"
+    "@redocly/developer-portal": "1.1.0-beta.9"
   }
 }
