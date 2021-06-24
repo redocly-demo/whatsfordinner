@@ -1,8 +1,8 @@
 ---
-title: Demo API Portal
+title: What's for dinner API Portal
 ---
 
-import { LandingLayout } from '@redocly/ui';
+import { LandingLayout } from '@redocly/developer-portal/ui';
 
 import {
   Button,
@@ -16,9 +16,9 @@ import {
   H1,
   H2,
   SectionHeader,
-} from '@redocly/ui';
+} from '@redocly/developer-portal/ui';
 
-import { NavBar } from '@redocly/ui';
+import { NavBar } from '@redocly/developer-portal/ui';
 
 import icon1 from './images/icon1.png';
 import launchFastIcon from './images/launch-fast.svg';
@@ -30,13 +30,13 @@ export default LandingLayout;
 
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1>Integrate our API</H1>
+  <H2>To track ingredients available in a kitchen</H2>
   <Flex p={20} justifyContent="center">
     {/* <Button inversed large to="https://app.redoc.ly">
       Redocly app
     </Button> */}
-    <Button inversed transparent large to="developer-portal/index.md">
+    <Button inversed transparent large to="docs/quickstart.md">
       Get started
     </Button>
     {/* <Button inversed transparent large>
@@ -46,23 +46,23 @@ export default LandingLayout;
 </Jumbotron>
 <Box my={25}>
   <SectionHeader>
-    Create your <Emphasis> developer portal </Emphasis> today!
+    Great for <Emphasis> kitchen management </Emphasis> or <Emphasis> meal prep! </Emphasis>
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
-    <ThinTile to="developer-portal/index.md" icon={icon1} header="Rock">
+    <ThinTile to="docs/quickstart.md" icon={icon1} header="List">
         Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
         aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
         an usu.Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo
         invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril
-        labitur an usu.Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
+        labitur an usu.L  orem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea
         justo invenire aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing.
     </ThinTile>
-    <ThinTile to="developer-portal/index.md" icon={launchFastIcon} header="Paper">
+    <ThinTile to="docs/quickstart.md" icon={launchFastIcon} header="Add">
         Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
         aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
         an usu.
     </ThinTile>
-    <ThinTile to="contact.mdx" icon={icon3} header="Scissors">
+    <ThinTile to="contact.mdx" icon={icon3} header="Reduce">
         Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
         aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
         an usu.
@@ -74,29 +74,7 @@ export default LandingLayout;
   </Jumbotron> */}
   <SectionHeader>
     <Emphasis>Need help? </Emphasis>
-    Try our training exercises.
+    Read our quickstart guide.
   </SectionHeader>
-  <FlexSection justifyContent="space-around" flexWrap="wrap">
-    <WideTile to="developer-portal/index.md" header="Rock">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
-    </WideTile>
-    <WideTile to="developer-portal/index.md" header="Paper">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
-    </WideTile>
-    <WideTile to="developer-portal/index.md" header="Scissors">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
-    </WideTile>
-    <WideTile to="developer-portal/index.md" header="Go">
-        Lorem ipsum dolor sit amet, pri putent oportere quaerendum in, ea mea justo invenire
-        aliquando. Usu modo suavitate ea. Et sed labitur epicurei adipiscing. Nibh zril labitur
-        an usu.
-    </WideTile>
-  </FlexSection>
 </Box>
 

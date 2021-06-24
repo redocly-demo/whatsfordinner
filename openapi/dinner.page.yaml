@@ -1,8 +1,13 @@
 type: reference-docs
-definitionId: petstore
+definitionId: dinner
+label: API reference docs
 settings:
+  pagination: none
   generateCodeSamples:
     languages:
       - lang: curl
       - lang: JavaScript
       - lang: Node.js
+      - lang: Python
+      - lang: Java
+      - lang: C#
