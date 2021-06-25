@@ -1449,16 +1449,16 @@
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-"@redocly/developer-portal@1.1.0-beta.9":
-  version "1.1.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.9.tgz#2c964adaf77442114626bd43c326f9d69640e7df"
-  integrity sha512-/kB3HQ/YIhW9goYuvxrAiHZ0tBDj4sxTUauUSyDBgKYbIA+D31z0vubcgKjKTY+gzrwM9cYBkUckhNGASypEGg==
+"@redocly/developer-portal@1.1.0-beta.12":
+  version "1.1.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@redocly/developer-portal/-/developer-portal-1.1.0-beta.12.tgz#e49f87b36896776d72b367b6c15554d9a977b8fd"
+  integrity sha512-vPnJUYJy2DPsmPXm0kAO+3vWjy7Za8YdEg0qloh748r41sD+9NGMvq4Vc4F7gz56++TrDvIl14TwuTjzinxUxw==
   dependencies:
     "@mdx-js/mdx" "0.19.0"
     "@mdx-js/tag" "0.20.3"
     "@redocly/gatsby-remark-images" "4.2.0"
     "@redocly/openapi-core" "^1.0.0-beta.50"
-    "@redocly/reference-docs" "2.0.0-rc.11"
+    "@redocly/reference-docs" "2.0.0-rc.13"
     babel-plugin-styled-components "^1.12.0"
     buffer "^6.0.3"
     chalk "^4.1.1"
@@ -1595,10 +1595,10 @@
   resolved "https://registry.yarnpkg.com/@redocly/react-dropdown-aria/-/react-dropdown-aria-2.0.12.tgz#2e3af2b1b8e9123487109400d6117f0d4a8445a6"
   integrity sha512-feQEZlyBvQsbT/fvpJ4jJ5OLGaUPpnskHYDsY8DGpPymN+HUeDQrqkBEbbKRwMKidFTI2cxk2kJNNTnvdS9jyw==
 
-"@redocly/reference-docs@2.0.0-rc.11":
-  version "2.0.0-rc.11"
-  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.0.0-rc.11.tgz#d002d5c86cbc12c15467915f4bdb584033b31b43"
-  integrity sha512-pMxiZGNsio45OVp3+hkW/NYBvpZ6vcsNdbzzBTj3tnobtobiiESh+Z/S1yEcuPPx6I7i+qFkdFeOqYkMj+pS6Q==
+"@redocly/reference-docs@2.0.0-rc.13":
+  version "2.0.0-rc.13"
+  resolved "https://registry.yarnpkg.com/@redocly/reference-docs/-/reference-docs-2.0.0-rc.13.tgz#3c87f7a61d11e32a125bdb644a16d07af21456c1"
+  integrity sha512-wDcibNIVU65O3Tha5ZTR0Pzt4hZKsIPLFoO4ppq7sAQKv5UqpIDCwF4/cTATo5HItauKbX/nhjZHeI++P1ja+w==
   dependencies:
     "@redocly/openapi-core" "^1.0.0-beta.50"
     "@redocly/react-dropdown-aria" "2.0.12"
