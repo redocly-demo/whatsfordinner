@@ -1,4 +1,4 @@
-# About this...
+# About this site...
 
 This website was created for the Virtual Write the Docs - [West Coast Quorum event](https://www.meetup.com/virtual-write-the-docs-west-coast-quorum/events/278612979/).
 
@@ -64,7 +64,7 @@ I did this by editing the `package.json` file:
 
 ```json
   "dependencies": {
-    "@redocly/developer-portal": "1.1.0-beta.9"
+    "@redocly/developer-portal": "1.1.0-beta.40"
   }
 ```
 And then installed the dependencies:

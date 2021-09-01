@@ -2,7 +2,12 @@ wfd:
   - page: docs/quickstart.md
     label: Quickstart guide
   - group: Guides
+    selectFirstItemOnExpand: true
     pages:
       - page: docs/guides/getting-access.md
+      
       - page: docs/guides/growing-herbs.md
+      - group: Adams best guides
+        pages:
+          - page: docs/guides/adams-guide.md
   - page: openapi/dinner.page.yaml
