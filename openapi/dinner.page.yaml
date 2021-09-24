@@ -6,6 +6,7 @@ settings:
   generateCodeSamples:
     languages:
       - lang: curl
+      - lang: Go
       - lang: JavaScript
       - lang: Node.js
       - lang: Python
