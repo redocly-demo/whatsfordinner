@@ -1,4 +1,4 @@
-# About this page
+# About this...
 
 This website was created for the Virtual Write the Docs - [West Coast Quorum event](https://www.meetup.com/virtual-write-the-docs-west-coast-quorum/events/278612979/).
 
