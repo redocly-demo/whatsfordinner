@@ -1,8 +1,16 @@
 type: reference-docs
-definitionId: dinner
-label: API reference docs
+versions:
+  - definitionId: dinner-v1
+    id: v1
+    title: v1
+    isDefault: false
+  - definitionId: dinner-v2
+    id: v2
+    title: v2
+    isDefault: false
+
 settings:
-  pagination: none
+  pagination: section
   generateCodeSamples:
     languages:
       - lang: curl

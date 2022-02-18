@@ -6,7 +6,8 @@ meta:
 logo: ./images/logo.png
 enableToc: true
 oasDefinitions:
-  dinner: https://api.redoc.ly/registry/testing_acme/whatsfordinner/1.0.0/bundle/main/openapi.yaml
+  dinner-v1: https://api.redoc.ly/registry/bundle/testing_acme/whatsfordinner/1.0.0/openapi.yaml?branch=main
+  dinner-v2: https://api.redoc.ly/registry/bundle/testing_acme/whatsfordinner/v2/openapi.yaml?branch=v2
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
