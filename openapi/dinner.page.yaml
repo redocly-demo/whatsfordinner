@@ -10,13 +10,8 @@ versions:
     isDefault: false
 
 settings:
-  pagination: section
-  generateCodeSamples:
-    languages:
-      - lang: curl
-      - lang: Go
-      - lang: JavaScript
-      - lang: Node.js
-      - lang: Python
-      - lang: Java
-      - lang: C#
+  jsonSampleExpandLevel: 'all'
+  showNextButton: false
+  pagination: none
+  hideInfoDescription: true
+  noAutoAuth: true
